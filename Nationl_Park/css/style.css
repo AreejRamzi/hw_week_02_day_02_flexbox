@@ -2,15 +2,23 @@
 /* header & nav */
 
 header {
+  display: flex;
+  border-bottom: 3px solid #d0a064;
+  justify-content: space-between;
+  background-color: #167C80;
 
 }
 
 header .logo, header nav {
+  display: flex;
 
 }
 
 
 .container .aboutrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
 }
 
@@ -18,6 +26,7 @@ header .logo, header nav {
 /* feature */
 
 .feature {
+  background-color: #167C80;
 
 }
 
@@ -31,18 +40,26 @@ header .logo, header nav {
 /* footer */
 
 footer {
+  display: flex;
+  color: #fff;
+  background-color: #222;
+  padding: 50px 15px 50px 200px;
+  justify-content: space-between;
+  text-align: left;
 
 }
 
 .footer-left {
-
+display: flex;
 }
 
 .footer-left .footer-col {
+  display: flex;
 
 }
 
 .footer-right {
+  align-content: flex-end;
 
 }
 
@@ -66,6 +83,7 @@ body {
 header {
   border-bottom: 3px solid #d0a064;
   background-color: #167C80;
+  align-items: row;
 }
 
 .logo {
@@ -87,6 +105,7 @@ nav ul li {
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 0.8em;
+  align-content: row;
 }
 
 .navigation li:hover a {
@@ -209,6 +228,7 @@ nav ul li {
 
 .cta {
   background-color: #d0a064;
+ 
 }
 
 footer {
